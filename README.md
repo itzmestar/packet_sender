@@ -24,12 +24,17 @@ Tested to work with: Python2
 
 How to run:
 -----------
-./packet_sender.py <ip_address> <interface> <type> <message>
-Where :
-        ip_address : Destination IP address
-        interface  : Source ethernet interface
-        type       : 0 -> ICMP Echo Request Message Or 1 -> TCP SYN packet to port 80
-        message    : message to be sent in packet
+./packet_sender.py [ip_address] [interface] [type] [message]
+
+Where:
+
+ip_address : Destination IP address
+
+interface  : Source ethernet interface
+
+type       : 0 -> ICMP Echo Request Message Or 1 -> TCP SYN packet to port 80
+
+message    : message to be sent in packet
 
 All of the options are mandotary.
 
